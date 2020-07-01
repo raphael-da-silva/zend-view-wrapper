@@ -1,0 +1,19 @@
+{
+    "name": "raphael-da-silva/zend-view-wrapper",
+    "description": "Wrapper para o componente de view da Zend.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Raphael da Silva"
+        }
+    ],
+    "require": {
+        "zendframework/zend-view": "^2.7",
+        "zendframework/zend-servicemanager": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleZendViewWrapper\\": "./src"
+        }
+    }
+}
